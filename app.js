@@ -7,15 +7,7 @@ var thu = document.getElementById('thu');
 var fri = document.getElementById('fri');
 var sat = document.getElementById('sat');
 var sun = document.getElementById('sun');
-var spending = {
-    mon : 33,
-    tue : 43,
-    wed : 22,
-    thu : 11,
-    fri : 25,
-    sat : 34,
-    sun : 85,
-}
+
 
 setTimeout(() => {
     mon.style.cssText='height: 20%';
