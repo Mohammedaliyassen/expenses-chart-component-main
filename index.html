@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div id="dad">
+  <div id="header">
+    <p> My balance </p>
+    <h2> $921.48</h2>
+  </div>
+  <div id="bodyer">
+    <h2> Spending - Last 7 days</h2>
+    <div id="rate">
+      <ul id="reng"> 
+        <li id="mon" onclick="info(this,'26.51')"> </li>
+        <li id="tue" onclick="info(this,'33.25')"> </li>
+        <li id="wed" onclick="info(this,'52.36')"> </li>
+        <li id="thu" onclick="info(this,'31.07')"> </li>
+        <li id="fri" onclick="info(this,'29.43')"> </li>
+        <li id="sat" onclick="info(this,'49.92')"> </li>
+        <li id="sun" onclick="info(this,'30.15')"> </li>
+      </ul>
+      <ul id="days"> 
+        <li> mon</li>
+        <li> tue</li>
+        <li> wed</li>
+        <li> thu</li>
+        <li> fri</li>
+        <li> sat</li>
+        <li> sun</li>
+      </ul>
+    </div>
+    <div id="sum">
+     <div id="total"> 
+      <h3> Total this month </h3>
+      <h1> $478.33 </h1>
+     </div>
+     <div id="bunce" style="text-align: end;">
+      <p> +2.4% </p>
+      <h3> from last month </h3>
+     </div>
+    </div>
+  </div>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.linkedin.com/in/mohammed-ali-a5bb18223/">Mohammed Ali Yassen</a>.
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
