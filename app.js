@@ -37,11 +37,11 @@ function info(lon , spend){
     if(screen.width <= 430){
         span.style.cssText='position: relative;top: -25px;font-size: 10px;left: -14%;background-color: #392315;padding: 5px;color: #ffff;border-radius: 5px;'
     }
-    if(screen.width >= 430 && screen.width <= 1057){
-        span.style.cssText='position: relative;top: -45px;font-size: 27px;left: -8%;background-color: #392315;padding: 5px;color: #ffff;border-radius: 5px;'
-    }
+    // if(screen.width >= 430 && screen.width <= 1057){
+    //     span.style.cssText='position: relative;top: -45px;font-size: 27px;left: -8%;background-color: #392315;padding: 5px;color: #ffff;border-radius: 5px;'
+    // }
    
 }
-if(screen.width <= 1057){
-    document.querySelector('#dad').style.width='100%';
-}
+// if(screen.width <= 1057){
+//     document.querySelector('#dad').style.width='100%';
+// }
